@@ -18,7 +18,8 @@ function clickListner() {
     } else if (birthdate === "") {
         errorText.innerText = "Please enter your birthdate";
     } else if (luckyNumber === "") {
-        errorText.innerText = "Please enter your lucky number";
+        errorText.innerText =
+            "Please enter a positive numeric value as your lucky number";
     } else {
         for (var i = 0; i < birthdate.length; i++) {
             if (!Number.isNaN(Number(birthdate[i]))) {
