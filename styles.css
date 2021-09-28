@@ -38,6 +38,9 @@ body {
     margin: 1rem auto;
     padding: 1rem;
     width: 15rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
 }
 
 #input-lucky-number {
@@ -45,6 +48,8 @@ body {
     margin: 1rem auto;
     padding: 1rem;
     width: 15rem;
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
 }
 
 #button {
@@ -67,6 +72,8 @@ body {
     width: 30rem;
     padding: 2rem;
     max-width: 80%;
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
 }
 
 #error-message {
